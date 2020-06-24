@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/project/smoke/smoke_dev.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/project/smoke/smoke_dev.ko /home/pi/Desktop/project/smoke/smoke_dev.o /home/pi/Desktop/project/smoke/smoke_dev.mod.o ;  true

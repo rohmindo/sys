@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/project/hydro/hydro_dev.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/project/hydro/hydro_dev.ko /home/pi/Desktop/project/hydro/hydro_dev.o /home/pi/Desktop/project/hydro/hydro_dev.mod.o ;  true

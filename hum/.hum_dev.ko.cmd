@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/project/hum/hum_dev.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/project/hum/hum_dev.ko /home/pi/Desktop/project/hum/hum_dev.o /home/pi/Desktop/project/hum/hum_dev.mod.o ;  true
